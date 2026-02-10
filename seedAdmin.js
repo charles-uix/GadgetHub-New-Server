@@ -11,9 +11,9 @@ async function seedAdmin() {
     });
     console.log("✅ Connected to MongoDB");
 
-    const email = "only1maniac007@gmail.com";
-    const phoneNumber = "07086440726";
-    const password = "Admin123!";
+    const email = "amadiidinma2007@gmail.com";
+    const phoneNumber = "07040266637";
+    const password = "Admin1234!";
 
     const existingAdmin = await USER.findOne({ email });
 
